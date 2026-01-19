@@ -166,6 +166,7 @@ $image-width: 160px;
     justify-content: space-between;
     align-items: center;
     padding: 0 5px;
+    height: 55px;
 
     :first-child {
       min-width: 22px;
@@ -177,8 +178,9 @@ $image-width: 160px;
       text-align: center;
 
       a {
-        overflow: hidden;
-        text-overflow: ellipsis;
+        //overflow: hidden;
+        //text-overflow: ellipsis;
+        white-space: normal;
       }
     }
 }
